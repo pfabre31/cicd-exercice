@@ -9,4 +9,4 @@ jobs:
     - run: echo "Bonjour !"
     - run: ls -l
     - uses: actions/checkout@v2
-    - run: cat README.md
+    - run: cat README.md | cowsay
