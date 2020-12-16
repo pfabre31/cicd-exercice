@@ -5,3 +5,5 @@ jobs:
     runs-on: ubuntu-20.04
     steps:
     - run: echo "Bonjour 👋 "
+    - run: ls -l
+    - run: cat README.md
