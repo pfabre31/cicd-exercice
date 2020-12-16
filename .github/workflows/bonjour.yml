@@ -1,9 +1,9 @@
-name: Bonjour
+name: bonjour
 on: [push]
 jobs:
   dire_bonjour:
     runs-on: ubuntu-20.04
     steps:
-    - run: echo "Bonjour 👋 "
+    - run: echo "Bonjour !"
     - run: ls -l
     - run: cat README.md
