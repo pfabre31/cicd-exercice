@@ -9,8 +9,4 @@ jobs:
     - run: echo "Bonjour !"
     - run: ls -l
     - uses: actions/checkout@v2
-      with:
-        # Repository name with owner. For example, actions/checkout
-        # Default: ${{ github.repository }}
-        repository: '{pfabre31}/{cicd-exercice}'
     - run: cat README.md
