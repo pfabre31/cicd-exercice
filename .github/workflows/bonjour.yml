@@ -12,5 +12,5 @@ jobs:
       with:
         # Repository name with owner. For example, actions/checkout
         # Default: ${{ github.repository }}
-        repository: 'https://github.com/pfabre31/cicd-exercice.git'
+        repository: 'pfabre31.cicd-exercice'
     - run: cat README.md
