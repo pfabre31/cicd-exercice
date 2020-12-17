@@ -1,5 +1,5 @@
 
-= AsciiDoc Article Title
+= Habile site
 Firstname Lastname <author@asciidoctor.org>
 1.0, July 29, 2014, Asciidoctor 1.5 article template
 :toc:
@@ -10,20 +10,19 @@ Content entered directly below the header but before the first section heading i
 
 == First level heading
 
-This is a paragraph with a *bold* word and an _italicized_ word.
-Yessai
+DÃpechons nous je n'ai que quelques heures
 
 .Image caption
-image::image-file-name.png[I am the image alt text.]
+image::https://lh3.googleusercontent.com/proxy/e9Eu48CT_7MSi2k0uICgJp3sPxFsxlMgGxMWLMIiG2eDCXoo9QCemvTtvMHN990Eem0C4zLOyu8EcleJKMG7fHF-GDg-qKyLBnSGy8dRuHJMau7VW_LEy-LgvEbp3Yy5nf07YoJHDphYGo5O4ZXhaduPUSvnaBN8eiwypmTcpaskxtPHoR8i3i9l-AxYg7xh4dvEn6YEH5ycud7Hmn0krFncVIr6a6ktiz6XyQf95llVOEBUo1D8PPRO[I am the image alt text.]
 
 This is another paragraph.footnote:[I am footnote text and will be displayed at the bottom of the article.]
 
 === Second level heading
 
 .Unordered list title
-* list item 1
-** nested list item
-*** nested nested list item 1
+* Larmina
+** Je te laisse il y a un nazi dans la salle
+*** Wagon lit
 *** nested nested list item 2
 * list item 2
 
