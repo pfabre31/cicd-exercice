@@ -1,21 +1,14 @@
 
-= Habile site
-Firstname Lastname <author@asciidoctor.org>
-1.0, July 29, 2014, Asciidoctor 1.5 article template
-:toc:
-:icons: font
-:quick-uri: https://asciidoctor.org/docs/asciidoc-syntax-quick-reference/
+== Habile site
 
-Content entered directly below the header but before the first section heading is called the preamble.
 
 == First level heading
 
-DÃpechons nous je n'ai que quelques heures
+Depechons nous je n'ai que quelques heures
 
 .Image caption
 image::https://lh3.googleusercontent.com/proxy/e9Eu48CT_7MSi2k0uICgJp3sPxFsxlMgGxMWLMIiG2eDCXoo9QCemvTtvMHN990Eem0C4zLOyu8EcleJKMG7fHF-GDg-qKyLBnSGy8dRuHJMau7VW_LEy-LgvEbp3Yy5nf07YoJHDphYGo5O4ZXhaduPUSvnaBN8eiwypmTcpaskxtPHoR8i3i9l-AxYg7xh4dvEn6YEH5ycud7Hmn0krFncVIr6a6ktiz6XyQf95llVOEBUo1D8PPRO[I am the image alt text.]
 
-This is another paragraph.footnote:[I am footnote text and will be displayed at the bottom of the article.]
 
 === Second level heading
 
@@ -74,7 +67,7 @@ I am a verse block.
   Indents and endlines are preserved in verse blocks.
 ____
 
-== First level heading
+
 
 TIP: There are five admonition labels: Tip, Note, Important, Caution and Warning.
 
