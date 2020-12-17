@@ -9,5 +9,4 @@ jobs:
     - run: echo "Bonjour !"
     - run: ls -l
     - uses: actions/checkout@v2
-    - run: sudo apt --assume-yes install cowsay
-    - run: cat README.md | cowsay
+    - run: netlify deploy --prod --dir=./dist/
