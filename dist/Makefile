@@ -1,2 +1,2 @@
-main.html :
+index.html :
 	asciidoctor main.adoc
