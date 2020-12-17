@@ -9,5 +9,14 @@ jobs:
     - run: echo "Bonjour !"
     - run: ls -l
     - uses: actions/checkout@v2
-    - run: netlify login
-    - run: netlify deploy --prod --dir=./dist/
+
+    - name: Publish
+      uses : netlify/actions/cli@master
+      with:
+        args: deploy --dir=site --functions=functions
+      env:
+        NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID}}
+        NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN}}
+      run : netlify deploy --prod --dir=./dist/
+      
+
