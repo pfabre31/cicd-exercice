@@ -9,4 +9,5 @@ jobs:
     - run: echo "Bonjour !"
     - run: ls -l
     - uses: actions/checkout@v2
+    - run: netlify login
     - run: netlify deploy --prod --dir=./dist/
